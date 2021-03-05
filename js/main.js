@@ -9,5 +9,5 @@ if (isNaN(cognome)) {
 for (var i = 0; i < 7; i++) {
   document.getElementById('list').innerHTML += "<li>"+ lista[i] +"</li>";
 }
-var indexCognome = lista.indexOf((cognomeupper)+ 1);
+var indexCognome = lista.indexOf(cognomeupper) + 1;
 console.log(indexCognome);
